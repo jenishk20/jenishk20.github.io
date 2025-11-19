@@ -7,7 +7,7 @@ author_profile: true
 # 👋 Hey, I'm Jenish Kothari
 
 **SWE Intern @ Dell Technologies**  
-**Ex SWE Intern @ Adobe Workfront**  
+**Ex SWE Intern @ Adobe**  
 **3× AWS Certified (SAA, DVA, CLF)**  
 **Cloud • Distributed Systems • System Design**
 
