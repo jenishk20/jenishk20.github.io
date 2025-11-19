@@ -1,0 +1,31 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby (local gem installation - like Python venv)
+vendor/
+.bundle/
+.ruby-version
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Build artifacts
+*.gem
+*.rbc
+
