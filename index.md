@@ -1,14 +1,18 @@
 ---
 layout: home
-title: Home
+title: "Tech by Jenish"
+author_profile: true
 ---
 
-# Welcome to Tech by Jenish
+# 👋 Hey, I'm Jenish Kothari
 
-I'm a Software Engineer passionate about system design, cloud architecture, and building scalable systems.
+**SWE Intern @ Dell Technologies**  
+**Ex SWE Intern @ Adobe Workfront**  
+**3× AWS Certified (SAA, DVA, CLF)**  
+**Cloud • Distributed Systems • System Design**
 
-Currently working on: Building resilient serverless applications with AWS Lambda, SQS, and MongoDB.
+I build scalable systems using **AWS Lambda, S3, SQS, MongoDB, EC2, Docker** — and document my engineering journey through deep-dive blogs and tutorials.
 
-## Recent Posts
+---
 
-<!-- Posts will appear here automatically -->
+## 📘 Latest Posts
