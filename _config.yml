@@ -1,4 +1,34 @@
+# Site settings
 title: Tech by Jenish
-description: System Design, AWS, and AI Engineering Blog
-theme: jekyll-theme-cayman
+description: >-
+  System Design • AWS • Cloud Architecture • Data Structures
+
+baseurl: ""
+url: "https://jenishk20.github.io"
+
+# Author info
+author:
+  name: Jenish Kothari
+  email: your.email@example.com
+
+# Social links
+github_username: jenishk20
+linkedin_username: jenishkothari
+
+# Build settings
+theme: minima
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
