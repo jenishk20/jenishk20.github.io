@@ -4,11 +4,12 @@ title: "Tech by Jenish"
 author_profile: true
 ---
 
-# Hey, I'm Jenish Kothari
+# Tech by Jenish
 
-**SWE Intern @ Dell Technologies | Ex-Adobe**  
-**3× AWS Certified | Cloud & Distributed Systems**
+**Designing Systems at Scale**
 
-I build scalable systems and write about real engineering challenges—the bugs, the fixes, and the lessons learned.
+Hey, I'm **Jenish Kothari** — SWE Intern @ Dell Technologies | Ex-Adobe | 3× AWS Certified
+
+I build scalable cloud systems and write about real engineering challenges—the bugs, the fixes, and the lessons learned.
 
 ## Latest Posts
