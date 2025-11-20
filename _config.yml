@@ -7,7 +7,7 @@ baseurl: ""
 
 # Theme Configuration
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dark" # Options: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # Clean, professional light theme
 
 # Site Settings
 locale: "en-US"
@@ -119,14 +119,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
 # HTML Compression
 compress_html:
   clippings: all
@@ -144,12 +136,8 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
-      share: true
-      related: true
-      toc: true
-      toc_sticky: true
-      toc_label: "On This Page"
-      toc_icon: "list"
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""

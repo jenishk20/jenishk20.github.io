@@ -5,12 +5,6 @@ date: 2025-11-18
 categories: [system-design, aws, serverless]
 tags: [lambda, sqs, mongodb, load-testing]
 excerpt: "How I debugged 26% data loss and achieved 100% success rate processing 500 concurrent requests with just 10 Lambda workers - for only $0.28"
-header:
-  overlay_color: "#333"
-  teaser: /assets/images/posts/serverless-load-testing.jpg
-toc: true
-toc_sticky: true
-toc_label: "Contents"
 ---
 
 # Building Resilient Serverless Systems: Load Testing 500 Concurrent Requests

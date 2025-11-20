@@ -7,157 +7,28 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom Styles */
+/* Minimal Custom Styles */
 
-/* Improve code block appearance */
+/* Clean code blocks */
 .highlight {
-  border-radius: 6px;
-  margin-bottom: 1.5em;
+  border-radius: 4px;
+  margin-bottom: 1em;
 }
 
-/* Better spacing for lists */
-article ul, article ol {
-  margin-bottom: 1.5em;
-}
-
-/* Enhance header overlay */
-.page__hero--overlay {
-  background-size: cover;
-  background-position: center;
-}
-
-/* Better link styling */
+/* Cleaner links */
 a {
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* Improve sidebar author profile */
-.author__avatar {
-  img {
-    border-radius: 50%;
-    border: 3px solid rgba(255, 255, 255, 0.1);
-  }
-}
-
-/* Better table of contents */
-.toc {
-  background-color: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  padding: 1em;
-  
-  .nav__title {
-    margin: 0 0 0.5em;
-    font-size: 1em;
-    font-weight: bold;
-  }
-}
-
-/* Dark mode adjustments */
-@media (prefers-color-scheme: dark) {
-  .toc {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.1);
-  }
-}
-
-/* Improve post meta information */
-.page__meta {
-  margin-top: 1em;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 0.85em;
-}
-
-/* Better emoji rendering */
-.emoji {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* Improve blockquote styling */
+/* Simple blockquotes */
 blockquote {
-  border-left: 4px solid #4a90e2;
+  border-left: 3px solid #0088cc;
   padding-left: 1em;
-  margin: 1.5em 0;
+  margin: 1em 0;
   font-style: italic;
-  background-color: rgba(74, 144, 226, 0.05);
-  border-radius: 4px;
-  padding: 1em 1em 1em 1.5em;
-}
-
-/* Better card styling for archive items */
-.archive__item {
-  border-radius: 6px;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.archive__item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Improve header navigation */
-.greedy-nav {
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px);
-}
-
-/* Better mobile responsiveness */
-@media (max-width: 768px) {
-  .page__content {
-    font-size: 16px;
-  }
-  
-  h1 {
-    font-size: 1.75em;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-  }
-}
-
-/* Improve tag and category badges */
-.page__taxonomy-item {
-  display: inline-block;
-  margin: 0.25em 0.25em 0.25em 0;
-  padding: 0.35em 0.65em;
-  background-color: rgba(74, 144, 226, 0.1);
-  border: 1px solid rgba(74, 144, 226, 0.3);
-  border-radius: 20px;
-  font-size: 0.85em;
-  transition: all 0.2s ease-in-out;
-}
-
-.page__taxonomy-item:hover {
-  background-color: rgba(74, 144, 226, 0.2);
-  border-color: rgba(74, 144, 226, 0.5);
-  transform: translateY(-1px);
-}
-
-/* Better excerpt styling */
-.archive__item-excerpt {
-  margin-top: 0.5em;
-  font-size: 0.9em;
-  line-height: 1.6;
-}
-
-/* Improve social share buttons */
-.page__share {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* Better related posts section */
-.page__related {
-  margin-top: 3em;
-  padding-top: 2em;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
